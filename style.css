@@ -1,0 +1,54 @@
+.user-container{
+
+    background-color:white;
+    margin:10px;
+     margin-bottom:20px;
+     padding:10px;
+    border-radius: 10px;
+    display:flex;
+    gap:20px;
+    transition: all 0.5s;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.user-container:hover{
+
+    transform:scale(1.1)
+}
+
+.username{
+
+    font-size: 1.8rem;
+}
+.user-container:hover .username{
+    color:red;
+}
+
+.user-avatar{
+    border-radius: 50%;
+    height:150px;
+    margin-top: 10px;
+}
+
+body{
+    
+    background-image: linear-gradient(to right top,
+     #140537, #730f51, #c73a49, #f48826, #ebe212);
+    
+   
+} 
+
+.user-form{
+
+    margin-bottom:10px;
+    margin-top: 10px;
+    margin-left: 100px;
+   
+}
+
+.buttonEdit{
+    margin-top: 10px;
+}
